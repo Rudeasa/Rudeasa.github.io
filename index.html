@@ -93,31 +93,12 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
-
-<h1 id="crackme——简单破解小程序"><a href="#crackme——简单破解小程序" class="headerlink" title="crackme——简单破解小程序"></a>crackme——简单破解小程序</h1><h3 id="找思路"><a href="#找思路" class="headerlink" title="找思路"></a>找思路</h3><p>首先拿到一个程序</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124630.png" alt="image-20210105000928376"></p>
-<p>随便 试着输入</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124633.png" alt="image-20210105005357335"></p>
-<p>报错了，查壳</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124636.png" alt="image-20210105001620383"></p>
-<p>无壳，而且是vb程序，因为crack，所以直接拉到od里查看</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124639.png" alt="image-20210105002337995"></p>
-<p>右键查看字符串，双击进入关键字符串地方“You got it!”然后发现上面是个JE跳转</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124651.png" alt="image-20210105002536675"></p>
-<p>跟着地址<code>004025E5</code>去查看一下发现跳到了“You Get Wrong”，说明如果执行这个je就会失败，又看到了<code>004025E5</code>上面有个jmp，jmp是无条件跳转，跟着jmp后面地址<code>0040263B</code>去看一下</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105003511.png" alt="image-20210105003511680"></p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105004131.png" alt="image-20210105004131422"></p>
-<p>发现直接结束，所以看到这里可以大概清楚了解这个函数了，只要把一开始的je跳转nop掉，然后让程序执行下来运行到jmp位置直接跳转到程序结束，这样就可以破解这个程序了。</p>
-<h3 id="具体破解"><a href="#具体破解" class="headerlink" title="具体破解"></a>具体破解</h3><p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105004505.png" alt="image-20210105004505665"></p>
-<p>找到</p>
-<p>je跳转地方，按空格编译汇编，直接改成nop，再选中修改的两行代码右键复制到可执行文件，点击所有修改，在选择全部复制</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124619.png" alt="image-20210105004722572"></p>
-<p>选中修改部分，右击备份保存数据就行。</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124624.png" alt="image-20210105005158687"></p>
-<p>最后破解成功</p>
-<p><img src="https://gitee.com/Rudesa/image/raw/master/img/20210105124720.png" alt="image-20210105005320373"></p>
-
+        <p>简单练习破解小程序</p>
+        
+          <p class="article-more-link">
+            <a href="/2021/01/05/crack%E7%BB%83%E4%B9%A0/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
