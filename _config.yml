@@ -105,7 +105,7 @@ theme: butterfly
 deploy:
   type: git
   repository: https://github.com/Rudeasa/Rudeasa.github.io
-  branch:  ../themes/butterfly 
+  branch:  master
 # A simple 404 page
 error_404:
   enable: true
