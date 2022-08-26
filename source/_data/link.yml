@@ -1,0 +1,43 @@
+- class_name: 友情鏈接
+  class_desc: Moving on~
+  link_list:
+  #   # - name: JerryC
+  #   #   link: https://jerryc.me/
+  #   #   avatar: https://jerryc.me/image/avatar.png
+  #   #   descr: 今日事,今日畢
+    - name: 杜丹
+      link: https://mrdzut.github.io/
+      avatar: https://mrdzut.github.io/img/ccc.png
+      descr: pwn学长
+    # - name: Hexo
+    #   link: https://hexo.io/zh-tw/
+    #   avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+    #   descr: 快速、簡單且強大的網誌框架
+    # - name: flyingfish
+    #   link: https://flyingfish20201.github.io/
+    #   avatar: 
+    #   descr: web
+    - name: 张子龙
+      link: http://www.zzl14.xyz/
+      avatar: https://cdn.jsdelivr.net/gh/zzl14/picBed@master/shadow.jpg
+      descr: pwn学长
+    - name: 景兰伟
+      link: https://nocbtm.github.io/
+      avatar: https://nocbtm.github.io/img/header1.png
+      descr: pwn大佬
+
+- class_name: 網站
+  class_desc: 值得推薦的網站
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: 視頻網站
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      descr: 中國最大社交分享平台
+    - name: Twitter
+      link: https://twitter.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 社交分享平台
