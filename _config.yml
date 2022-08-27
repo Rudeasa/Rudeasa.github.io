@@ -104,8 +104,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://rudeasa.github.io/
-#  repository: https://github.com/Rudeasa/Rudeasa.github.io
+  repository: https://github.com/Rudeasa/Rudeasa.github.io
   branch:  master
 # A simple 404 page
 error_404:
